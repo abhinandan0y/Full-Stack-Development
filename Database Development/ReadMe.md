@@ -65,5 +65,6 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 #### Error: mongodb Failed To Set up Listener: SocketException: Address Already in Use
 ```
 sudo lsof -iTCP -sTCP:LISTEN -n -P
+#mongod    5986      user   10u  IPv4 141244      0t0  TCP 127.0.0.1:27017 (LISTEN)
 sudo kill -9 PID  #process id of mongodb 
 ```
