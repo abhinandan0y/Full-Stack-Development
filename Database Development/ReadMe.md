@@ -10,7 +10,7 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gp
 #Install the MongoDB packages.
 sudo apt-get install -y mongodb-org
 ```
-```
+
 #### set mongodb path for data/db
 ```
 # by default, Mongo points to that /data/db folder
@@ -33,7 +33,7 @@ sudo systemctl status mongod
 Jul 14 17:18:19 Progenesis systemd[1]: Started mongod.service - MongoDB Database Server.
 Jul 14 17:18:19 Progenesis mongod[195647]: {"t":{"$date":"2023-07-14T11:48:19.722Z"},"s":"I",  "c":"CONTROL",  "id":7484500, "ctx":"-","msg":"Environment variable MONGODB_CONFIG_OVERRIDE_NOFORK == 1, overriding \"processManagement.fork\" to false"}
 ...
-
+```
 #### Begin using MongoDB
 ```
 # mongosh
@@ -61,4 +61,9 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
    2023-07-30T17:00:06.681+0530: **          server with --bind_ip 127.0.0.1 to disable this warning.
    2023-07-30T17:00:06.681+0530:
 
+```
+#### Error: mongodb Failed To Set up Listener: SocketException: Address Already in Use
+```
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+sudo kill -9 PID  #process id of mongodb 
 ```
