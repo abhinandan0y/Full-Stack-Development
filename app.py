@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 client = MongoClient('localhost', 27017)
 
-db = client.BjuDb
-CharacterizedGenes = db.CharacterizedGenes
+db = client.test
+Test = db.Test
 
 
 '''
@@ -19,7 +19,7 @@ def index():
 @app.route('/', methods=('GET', 'POST'))
 def index():
  
-    all_CharacterizedGenes = CharacterizedGenes.find()
-    return render_template('index.html', CharacterizedGenes=all_CharacterizedGenes)
+    all-data_Test = Test.find()
+    return render_template('index.html', Test=all-data_Test)
     
 
