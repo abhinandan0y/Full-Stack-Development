@@ -2,7 +2,6 @@
 
 I used **Mongodb** as database to store test data and **Flask** to get data from database using **pymongo**. And finally incorporated data through flask in html for full stack development alongwith jQuery to use JavaScript on the website to make it more interactive and attractive.
 
-
 ### Install MongoDB 
 ```
 #From a terminal, install gnupg and curl if they are not already available:
