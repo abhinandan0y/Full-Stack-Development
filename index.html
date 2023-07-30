@@ -54,27 +54,27 @@
         <br>
  
         <table id="myTable" class="table table-striped" >
-    
+  
             <thead> 
             <tr>
-            <th>BJU-ID</th>
-            <th>AT-ID</th>
-            <th>Gene</th>
-            <th>Function</th>
-            <th>Pathway</th>
-            <th>Databases</th>
+            <th>gene_id</th>
+            <th>logfc</th>
+            <th>Top Blast Hit</th>
+            <th>Bit Score</th>
+            <th>Mloecular Function</th>
+            <th>BioSynthetic Pathway</th>
             </tr>
             </thead> 
         
     {% for CharacterizedGene in CharacterizedGenes %}
 
            <tr>
-          <td>{{ Test['BJU-ID'] }}</td>
-          <td>{{ Test['AT-ID'] }}</td>
-          <td>{{ Test['Gene'] }}</td>
-          <td>{{ Test['Function'] }}</td>
-          <td>{{ Test['Pathway'] }}</td>
-          <td>{{ Test['Databases'] }}</td>
+          <td>{{ Test['gene_id'] }}</td>
+          <td>{{ Test['logfc'] }}</td>
+          <td>{{ Test['Top Blast Hit'] }}</td>
+          <td>{{ Test['Bit Score'] }}</td>
+          <td>{{ Test['Mloecular Function'] }}</td>
+          <td>{{ Test['BioSynthetic Pathway'] }}</td>
 
    {% endfor %}
          <tr>
