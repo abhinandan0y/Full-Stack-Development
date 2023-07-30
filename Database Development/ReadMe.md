@@ -115,3 +115,13 @@ Test> db.Test.find()
 Test> db.Test.find().count()
 2000
 ```
+
+**#Knowlegde is FREE but Solution is Your's🤘🏻**
+
+**Keep on Learning and Executing...🏃🏻** contact@:bioinformaticsfuture@gmail.com
+<div style="width: 100%;">
+  <img src="https://www.bioinformaticsfuture.com/images/bioinformatics_lab.png" style="width: 100%;" alt="bioinformatics_lab.png">
+</div>
+
+
+
