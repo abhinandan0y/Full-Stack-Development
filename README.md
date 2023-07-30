@@ -1,4 +1,4 @@
-# Full-Stack-Development 
+![image](https://github.com/abhinandan0y/Full-Stack-Development/assets/138775457/d86c9fce-9707-4ffb-8046-13cad669dd7d)# Full-Stack-Development 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fabhinandan0y%2FFull-Stack-Development%2Ftree%2Fmain&count_bg=%2379C83D&title_bg=%23555555&icon=jabber.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false"/></a>
 <a href="https://abhinandan0y-Full-Stack-Development-xpx37u3zfpq.ws-us101.gitpod.io/"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-FFB45B?logo=gitpod url=https://gitpod.io/#https://github.com/abhinandan0y/Full-Stack-Development"/></a>
 ## Getting Started
@@ -35,7 +35,8 @@ show dbs
 show tables
 Test
 Test> db.Test.find()
-...
+#json format
+{ "_id" : ObjectId("64c4e79d9d9d0c9b295976a0"), "gene_id" : "A01_VARUNA_g1408.t1", "logfc" : "AT4G23100", "Top Blast Hit" : " XP_020680593.1 chlorophyll(ide) b", "Bit Score" : "102", "Mloecular Function" : "chlorophyll(ide) b reductase activity", "BioSynthetic Pathway" : "Porphyrin" }
 Test> db.Test.find().count()
 2000
 ```
