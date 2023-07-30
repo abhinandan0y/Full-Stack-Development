@@ -38,6 +38,11 @@ export FLASK_APP=app
 export FLASK_ENV=development
 flask run ###port 5000
 ```
+
+
+https://raw.githack.com/abhinandan0y/Full-Stack-Development/main/index.html
+
+
 **#Knowlegde is FREE but Solution is Your's🤘🏻**
 
 **Keep on Learning and Executing...🏃🏻** contact@:bioinformaticsfuture@gmail.com
@@ -47,5 +52,3 @@ flask run ###port 5000
 
 
 
-
-https://raw.githack.com/abhinandan0y/Full-Stack-Development/main/index.html
