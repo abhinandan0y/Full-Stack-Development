@@ -13,16 +13,12 @@ Frontend: HTML CSS JavaScript
 sudo lsof -iTCP -sTCP:LISTEN -n -P
 ##sudo kill -9 pid
 ```
-#### #############################  MongoDb  ####################################
+#### MongoDb
 ```
 mongodb ##port 27017
-```
 ### use newdatabase(name of new database) to create a new database
-
 use test
-
 ### insertOne to insert one value into database.
-
 db.test.insertOne({x:1})
 ### to check the new database has been created.
 show dbs 
@@ -34,11 +30,12 @@ show dbs
 ### show tables/collections
 show tables
 ```
-#### #############################  Flask  ######################################
+#### Flask
+```
 export FLASK_APP=app
 export FLASK_ENV=development
-flask run ##port 5000
-
+flask run ###port 5000
+```
 
 
 
