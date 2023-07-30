@@ -26,12 +26,14 @@ db.test.insertOne({x:1})
 ### to check the new database has been created.
 show dbs 
 ### import data from another termonal.
-Using mongoimport 
-mongoimport --db test --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/CharacterizedGenes.csv
+Using mongoimport
+#if you don't mention collections name it will take from filename
+mongoimport --db test --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/Test.csv
 ### to present all databases
 show dbs 
 ### show tables/collections
 show tables
+Test
 ```
 #### Flask
 ```
