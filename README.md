@@ -34,6 +34,10 @@ show dbs
 ### show tables/collections
 show tables
 Test
+Test> db.Test.find()
+...
+Test> db.Test.find().count()
+2000
 ```
 #### Flask
 ```
