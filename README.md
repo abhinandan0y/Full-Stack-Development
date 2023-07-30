@@ -4,12 +4,15 @@
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.<br>
 https://raw.githack.com/abhinandan0y/Full-Stack-Development/main/index.html
+<br><br>
+I used Mongodb as database to store test data and Flask to get data from database using pymongo. And finally incorporated data through flask in html for full stack development alongwith jQuery to use JavaScript on the website to make it more interactive and attractive.
+
 
 ### Technologies used : 
 ```
 Database: MongoDb
 Backend: Flask
-Frontend: HTML CSS JavaScript
+Frontend: HTML CSS jQuery JavaScript
 ```
 ### check and kill if any server running in background
 ```
