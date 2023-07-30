@@ -74,7 +74,7 @@ test> show dbs
 ```
 
 mongodb ##port 27017
-##### use newdatabase(name of new database) to create a new database
+##### use test(name of new database) to create a new database
 ```
 use test
 ```
