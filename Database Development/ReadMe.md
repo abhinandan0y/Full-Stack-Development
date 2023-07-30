@@ -1,6 +1,6 @@
 # Database Development
 
-I used **Mongodb** as database to store test data and **Flask** to get data from database using **pymongo**. And finally incorporated data through flask in html for full stack development.
+I used **Mongodb** as database to store test data and **Flask** to get data from database using **pymongo**. And finally incorporated data through flask in html for full stack development alongwith jQuery to make it more interactive and attractive.
 
 
 ### Install MongoDB 
