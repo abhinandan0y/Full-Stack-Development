@@ -1,4 +1,4 @@
-![image](https://github.com/abhinandan0y/Full-Stack-Development/assets/138775457/d86c9fce-9707-4ffb-8046-13cad669dd7d)# Full-Stack-Development 
+# Full-Stack-Development 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fabhinandan0y%2FFull-Stack-Development%2Ftree%2Fmain&count_bg=%2379C83D&title_bg=%23555555&icon=jabber.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false"/></a>
 <a href="https://abhinandan0y-Full-Stack-Development-xpx37u3zfpq.ws-us101.gitpod.io/"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-FFB45B?logo=gitpod url=https://gitpod.io/#https://github.com/abhinandan0y/Full-Stack-Development"/></a>
 ## Getting Started
