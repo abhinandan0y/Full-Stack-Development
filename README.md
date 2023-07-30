@@ -36,7 +36,7 @@ show tables
 Test
 Test> db.Test.find()
 #json format
-{ "_id" : ObjectId("64c4e79d9d9d0c9b295976a0"), "gene_id" : "C10152", "logfc" : "AT4G23100", "Top Blast Hit" : " XP_020680593.1 chlorophyll(ide) b", "Bit Score" : "102", "Mloecular Function" : "chlorophyll(ide) b reductase activity", "BioSynthetic Pathway" : "Porphyrin" }
+{ "_id" : ObjectId("64c4e79d9d9d0c9b295976a0"), "gene_id" : "C10152", "logfc" : "AT4G23100", "Top Blast Hit" : " XP_020680593.1 chlorophyll(ide) b", "Bit Score" : "102", "Molecular Function" : "chlorophyll(ide) b reductase activity", "BioSynthetic Pathway" : "Porphyrin" }
 Test> db.Test.find().count()
 2000
 ```
