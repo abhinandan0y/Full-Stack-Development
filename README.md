@@ -84,6 +84,10 @@ Test> db.Test.find()
 Test> db.Test.find().count()
 2000
 ```
+### pymongo
+```
+pip install pymongo
+```
 #### Flask
 ```
 pip install flask
