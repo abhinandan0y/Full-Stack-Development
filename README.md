@@ -95,8 +95,8 @@ pip install flask
 app/
 |
 └── app.py
-|__ templates
-   |__ index.html
+└── templates
+   └── index.html
 export FLASK_APP=app
 export FLASK_ENV=development
 flask run ###port 5000
