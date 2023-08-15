@@ -91,6 +91,12 @@ pip install pymongo
 #### Flask
 ```
 pip install flask
+#folder structure #should be inside main(app) folder
+app/
+|
+└── app.py
+|__ templstes
+   |__ index.html
 export FLASK_APP=app
 export FLASK_ENV=development
 flask run ###port 5000
