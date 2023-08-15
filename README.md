@@ -95,7 +95,7 @@ pip install flask
 app/
 |
 └── app.py
-|__ templstes
+|__ templates
    |__ index.html
 export FLASK_APP=app
 export FLASK_ENV=development
