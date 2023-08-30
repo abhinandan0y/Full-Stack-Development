@@ -91,7 +91,7 @@ pip install pymongo
 #### Flask
 ```
 pip install flask
-#folder structure #should be inside main(app) folder
+#folder structure #export should be done inside main(app) folder
 app/
 |
 └── app.py
