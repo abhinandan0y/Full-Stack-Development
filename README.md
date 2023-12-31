@@ -2,7 +2,7 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fabhinandan0y%2FFull-Stack-Development&count_bg=%2379C83D&title_bg=%23555555&icon=jabber.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 <a href="https://abhinandan0y-Full-Stack-Development-xpx37u3zfpq.ws-us101.gitpod.io/"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-FFB45B?logo=gitpod url=https://gitpod.io/#https://github.com/abhinandan0y/Full-Stack-Development"/></a>
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.<br>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment notes on how to deploy the project on a live system.<br>
 https://raw.githack.com/abhinandan0y/Full-Stack-Development/main/index.html
 <br><br>
 I used **Mongodb** as database to store test data and **Flask** to get data from database using **pymongo**. And finally incorporated data through flask in html for full stack development alongwith jQuery to use JavaScript on the website to make it more interactive and attractive.
