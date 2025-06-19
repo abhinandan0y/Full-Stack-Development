@@ -64,7 +64,8 @@ sudo kill -9 PID  #process id of mongodb
 ```
 mongodb ##port 27017
 ### use newdatabase(name of new database) to create a new database
-use test
+use BSL
+switched to db BSL
 ### to check the new database has been created.
 show dbs
 ```
@@ -72,19 +73,26 @@ show dbs
 ### import data from another termonal.
 Using mongoimport
 #if you don't mention collections name it will take from filename
-mongoimport --db test --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/Test.csv
+mongoimport --db BSL --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/clusters.csv
 ```
 ```
 ### to present all databases
 show dbs 
 ### show tables/collections
-show tables
-Test
-Test> db.Test.find()
-#json format
-{ "_id" : ObjectId("64c4e79d9d9d0c9b295976a0"), "gene_id" : "C10152", "logfc" : "AT4G23100", "Top Blast Hit" : " XP_020680593.1 chlorophyll(ide) b", "Bit Score" : "102", "Molecular Function" : "chlorophyll(ide) b reductase activity", "BioSynthetic Pathway" : "Porphyrin" }
-Test> db.Test.find().count()
-2000
+##############################################
+BSL> show tables
+barcode_clusters
+clusters
+BSL> db.clusters.find()
+[
+  {
+    _id: ObjectId('6853b971a7fb7d3da6e5a6ef'),
+    barcode: 'barcode73',
+    count: 44
+  },
+###############################################
+BSL> db.clusters.find().count()
+13
 ```
 #### pymongo
 ```
