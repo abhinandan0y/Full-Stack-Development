@@ -73,7 +73,7 @@ show dbs
 ### import data from another termonal.
 Using mongoimport
 #if you don't mention collections name it will take from filename
-mongoimport --db BSL --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/clusters.csv
+mongoimport --db BSL --type tsv --headerline --ignoreBlanks --file clusters.csv
 ```
 ```
 ### to present all databases
