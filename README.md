@@ -107,11 +107,12 @@ app/
 └── app.py
 └── templates
    └── index.html
+
+#### ****keep html files inside templates
 export FLASK_APP=app
 export FLASK_ENV=development
 flask run ###port 5000
 ```
-
 
 **#Knowlegde is FREE but Solution is Your's🤘🏻**
 
