@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Characterized Genes</title>
+    
+    <meta name="description" content="Bootstrap.">  
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <style>
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: .5px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #87CEFA;
+    color: white;
+}
+td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+    </style>
+</head>
+<body>
+
+<div class="row header" style="text-align:center;color:green">
+
+<br>
+
+<h3><b>Barcode Clusters</b></h3>
+</div>
+<div class="container">
+    <br>
+ 
+    <table id="freshTable" class="table table-striped" >
+    
+    <thead> 
+    <tr>
+    <th>barcode</th>
+    <th>count</th>
+    </tr>
+        </thead> 
+        
+  <tbody>
+    {% for cluster in clusters %}
+    <tr>
+      <td>{{ cluster['barcode'] }}</td>
+      <td>{{ cluster['count'] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  </table>
+  
+</div>
+
+</body>
+<script>
+$(document).ready(function(){
+  $('#freshTable').DataTable();
+});
+</script>
+</html>
