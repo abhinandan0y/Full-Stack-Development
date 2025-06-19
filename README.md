@@ -65,14 +65,16 @@ sudo kill -9 PID  #process id of mongodb
 mongodb ##port 27017
 ### use newdatabase(name of new database) to create a new database
 use test
-### insertOne to insert one value into database.
-db.test.insertOne({x:1})
 ### to check the new database has been created.
-show dbs 
+show dbs
+```
+```
 ### import data from another termonal.
 Using mongoimport
 #if you don't mention collections name it will take from filename
 mongoimport --db test --type tsv --headerline --ignoreBlanks --file /home/abhinandan/MongoDB/data/Test.csv
+```
+```
 ### to present all databases
 show dbs 
 ### show tables/collections
