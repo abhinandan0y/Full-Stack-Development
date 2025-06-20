@@ -62,7 +62,7 @@ sudo kill -9 PID  #process id of mongodb
 ```
 #### MongoDb
 ```
-mongodb ##port 27017
+mongosh #mongodb ##port 27017
 ### use newdatabase(name of new database) to create a new database
 use BSL
 switched to db BSL
