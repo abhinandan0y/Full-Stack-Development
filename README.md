@@ -17,6 +17,7 @@ Frontend: HTML CSS jQuery JavaScript
 ### Install MongoDB 
 ```
 #From a terminal, install gnupg and curl if they are not already available:
+#### Link :https://youtube.com/shorts/ZgOjRZ-5c7o?si=xC_YXX8-3izPrc_u
 sudo apt-get install gnupg curl
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg \
